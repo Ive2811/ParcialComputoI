@@ -1,0 +1,26 @@
+import Vue from 'vue'
+import VueRouter from 'vue-router'
+import HomeView from '../views/HomeView.vue'
+import Perros from '../views/Perros.vue'
+
+Vue.use(VueRouter)
+
+const routes = [
+  {
+    path: '/',
+    name: 'home',
+    component: HomeView
+  },
+
+  {
+    path:'/perros',
+    name:'Perros',
+    component:Perros
+  },
+]
+
+const router = new VueRouter({
+  routes
+})
+
+export default router
