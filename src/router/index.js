@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import Perros from '../views/Perros.vue'
 import Gatos from '../views/Gatos.vue'
+import Loros from '../views/Loros.vue'
 
 Vue.use(VueRouter)
 
@@ -22,6 +23,11 @@ const routes = [
     path:'/gatos',
     name:'Gatos',
     component:Gatos
+  },
+  {
+    path:'/loros',
+    name:'Loros',
+    component:Loros
   },
 ]
 
