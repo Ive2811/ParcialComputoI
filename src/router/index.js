@@ -4,6 +4,7 @@ import HomeView from '../views/HomeView.vue'
 import Perros from '../views/Perros.vue'
 import Gatos from '../views/Gatos.vue'
 import Loros from '../views/Loros.vue'
+import Conejos from '../views/Conejos.vue'
 
 Vue.use(VueRouter)
 
@@ -28,6 +29,11 @@ const routes = [
     path:'/loros',
     name:'Loros',
     component:Loros
+  },
+  {
+    path:'/conejos',
+    name:'Conejos',
+    component:Conejos
   },
 ]
 
