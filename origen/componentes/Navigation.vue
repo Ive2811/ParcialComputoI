@@ -5,6 +5,7 @@
       <b-nav-item to ="/">Home</b-nav-item>
       <b-nav-item to ="/perros">Perros</b-nav-item>
       <b-nav-item to ="/gatos">Gatos</b-nav-item>
+      <b-nav-item to ="/loros">Loros</b-nav-item>
     </b-navbar-nav>
   </b-navbar>
     <router-view/>
